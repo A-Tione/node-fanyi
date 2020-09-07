@@ -1,0 +1,25 @@
+{
+  "name": "tione-fanyi",
+  "version": "0.0.1",
+  "main": "dist/main.js",
+  "repository": "https://github.com/A-Tione/node-fanyi.git",
+  "author": "A-Tione <heyanggo@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^6.0.0",
+    "md5": "^2.2.1"
+  },
+  "bin": {
+    "fy": "dist/cli.js"
+  },
+  "files": [
+    "dist/**/*.js"
+  ],
+  "scripts": {
+    "start": "ts-node-dev src/main.ts"
+  },
+  "devDependencies": {
+    "@types/md5": "^2.2.0",
+    "@types/node": "^14.6.4"
+  }
+}
