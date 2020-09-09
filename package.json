@@ -7,7 +7,9 @@
   "license": "MIT",
   "dependencies": {
     "commander": "^6.0.0",
-    "md5": "^2.2.1"
+    "md5": "^2.2.1",
+    "ts-node-dev": "^1.0.0-pre.62",
+    "typescript": "^4.0.2"
   },
   "bin": {
     "fy": "dist/cli.js"
@@ -16,7 +18,7 @@
     "dist/**/*.js"
   ],
   "scripts": {
-    "start": "ts-node-dev src/main.ts"
+    "start": "ts-node-dev src/cli.ts"
   },
   "devDependencies": {
     "@types/md5": "^2.2.0",
